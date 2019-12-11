@@ -9,9 +9,9 @@ const Specials = () => {
   // STEP 2 - add the imported data to state
 
   return (
-    <div>
+    <div className="specials">
       {specials.map(special => (
-        <SpecialButton text={special} />
+        <SpecialButton className="specials" text={special} />
       ))}
     </div>
   );
